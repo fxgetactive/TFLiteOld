@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+# pylint: disable=g-bad-import-order,redefined-builtin
 """Public APIs for TFLite Model Maker, a transfer learning library to train custom TFLite models.
 
 You can install the package with
@@ -58,4 +59,4 @@ from tensorflow_examples.lite.model_maker.core.export_format import ExportFormat
 from tensorflow_examples.lite.model_maker.core.task import configs
 # pylint: enable=g-bad-import-order
 
-__version__ = '0.3.2'
+__version__ = '0.3.3'
